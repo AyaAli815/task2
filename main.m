@@ -1,5 +1,5 @@
 function main()
-    f = @(t, y) -2*y + t;
+    f = @(t, y) -50*y + sin(t);
 
     t0 = 0;
     y0 = 1;
