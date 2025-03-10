@@ -3,8 +3,8 @@ function main()
 
     t0 = 0;
     y0 = 1;
-    h = 0.1;
-    t_end = 1;
+    h = 0.04;
+    t_end = 2;
     t = t0:h:t_end;
 
     y_heun = Heun(f, t, y0);
